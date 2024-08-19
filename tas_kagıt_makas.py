@@ -1,7 +1,9 @@
 import random
 
-def tas_kagit_makas_ADINIZ_SOYADINIZ(name):
+def tas_kagit_makas_ADINIZ_SOYADINIZ():
     
+    name = input("İsminiz Nedir ?")
+
     print(name + " Taş, Kağıt, Makas Oyununa Hoş Geldiniz!")
     print("Oyun kuralları: Taş, kağıt, makas seçeneklerinden birini seçin.")
     print("İlk iki turu kazanan oyunun galibi olur.")
@@ -54,4 +56,4 @@ def tas_kagit_makas_ADINIZ_SOYADINIZ(name):
             print("Oyun sona erdi.")
             break
 
-tas_kagit_makas_ADINIZ_SOYADINIZ("Efe Erdoğan")
+tas_kagit_makas_ADINIZ_SOYADINIZ()
